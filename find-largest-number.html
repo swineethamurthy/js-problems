@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="assets/js/find-largest-number.js"></script>
+    <title>Find the largest number</title>
+  </head>
+  <body>
+    <h4>Problem Statement:</h4>
+    <span
+      >Get the size of list of numbers. Get that many numbers from the user and
+      display the largest number along with the entered size and numbers.
+    </span>
+    <h4>Assumptions</h4>
+    <ul>
+      <li>
+        Only numbers are entered in input for the size and list of numbers. No
+        special characters or alphabets allowed
+      </li>
+      <li>
+        No decimal numbers or fractions are allowed.Only whole number are
+        entered
+      </li>
+      <li>The size of the list can be between 0 and 10</li>
+      <li>The input numbers can be between the range 0 to 1000</li>
+    </ul>
+    <h4>Psuedocode</h4>
+    <ol>
+      <li>Ask the size of the list from the user</li>
+      <li>Get the first number</li>
+      <li>Store it in an array</li>
+      <li>Get the next number</li>
+      <li>Add it to the array</li>
+      <li>
+        Check the largest of the two numbers and store in a separate variable
+      </li>
+      <li>Get the next number</li>
+      <li>Add it to the array</li>
+      <li>
+        Compare this number and the variable and store the largest in the
+        variable.
+      </li>
+      <li>
+        Repeat the last three steps till the size of the list entered by the
+        user.
+      </li>
+      <li>Display the size of the list</li>
+      <li>Display the array as the result</li>
+      <li>Display the largest number</li>
+    </ol>
+    <button onclick="onButtonClick()">Start</button>
+  </body>
+</html>
